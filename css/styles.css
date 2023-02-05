@@ -104,7 +104,6 @@ gap: var(--indent);
     order: 1;
     color: var(--text-color);
     margin-top: 8px;
-    margin-bottom: 8px;
 }
 
 
@@ -226,13 +225,13 @@ gap: var(--indent);
 .order{
     padding: 188px 0;
     /* background: #2E2F42; */
-    background-image: linear-gradient(rgba(46, 47, 66, 0.3), rgba(46, 47, 66, 0.3)), url('../images/bg.images/people-office.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/bg.images/people-office.jpg');
     background-repeat: no-repeat;
-    background-size:: contain;
-    background-position: right;
-
-
-    
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .order-box { 
     display: flex;
@@ -274,11 +273,10 @@ gap: var(--indent);
 .btn-hero:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background-color: var(--hover-link);
-    color: var(white);
 }
 
 
-/* sevtion about*/
+/* section about*/
 
 .about {
     padding: 120px 0;
@@ -298,6 +296,7 @@ gap: var(--indent);
     padding: 24px 100px;
     width: 264px;
     height: 112px;
+    margin-bottom: 8px;
 }
 
 
@@ -341,7 +340,7 @@ gap: var(--indent);
     height: 40px;
     background-color: var(--brand-color);
     border-radius: 50%;
-    transition-property: background-color, box-shadow, color;
+    transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
